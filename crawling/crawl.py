@@ -167,10 +167,6 @@ def _crawl_players_by_region(region="kr"):
 
     print(f"Found {len(result)} players")
 
-    # In thử 10 thằng đầu
-    for r in result[:10]:
-        print(r)
-
     return result
 
 
@@ -207,7 +203,6 @@ def _extract_match_urls_v2(page_source):
     urls = set()
     soup = BeautifulSoup(page_source, "html.parser")
     for input_tag in soup.find_all("input", attrs={"readonly": True, "value": True}):
-        print(f"Checking input tag: {input_tag}")
         url = input_tag.get("value")
         if url and "/summoners/" in url and "/matches/" in url:
             full_url = unescape(url).strip().strip('"\'').replace("\\/", "/")
@@ -266,9 +261,7 @@ def crawl_players_match_history(players):
     driver = _create_chrome_driver()
     wait = WebDriverWait(driver, 20)
     result = []
-    summary = {
-
-    }
+    summary = {}
 
     try:
         for region, player_list in players.items():
