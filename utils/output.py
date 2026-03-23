@@ -31,15 +31,11 @@ def save_players_crawl_summary(summary):
         for item in summary:
             f.write(f"{item['region']}\t{item['count']}\t{item['status']}\n")
 
-def save_matches_to_file(match_history, region='kr'):
-    filename = MATCHES_HISTORY_CRAWL_DATA_FOLDER / f"{region}.txt"
+def save_matches_to_file(player, matches):
+    filename = MATCHES_HISTORY_CRAWL_DATA_FOLDER / f"{player}.txt"
     with open(filename, "w", encoding="utf-8") as f:
-        for row in match_history:
-            matches = row.get('matches', [])
-            if not matches:
-                continue
-            for match_url in matches:
-                f.write(f"{row['player']}\t{match_url}\n")
+        for match_url in matches:
+            f.write(f"{match_url}\n")
 
 def save_matches_crawl_summary(summary):
     filename = DATA_FOLDER / "matches_crawl_summary.txt"

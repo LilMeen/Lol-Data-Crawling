@@ -284,6 +284,7 @@ def crawl_players_match_history(players):
                         driver=driver,
                         wait=wait
                     )
+                    save_matches_to_file(player, matches)
                     result.append({
                         "player": player,
                         "matches": matches
@@ -294,7 +295,7 @@ def crawl_players_match_history(players):
                         "player": player,
                         "matches": []
                     })
-            save_matches_to_file(result, region)
+                
             match_count = sum(len(r.get("matches", [])) for r in result)
             summary[region] = {
                 "match_count": match_count,
