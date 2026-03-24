@@ -1,0 +1,3619 @@
+[
+  {
+    "item": "boots"
+  },
+  {
+    "item": "faerie charm"
+  },
+  {
+    "item": "rejuvenation bead"
+  },
+  {
+    "item": "giant's belt",
+    "child": [
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "cloak of agility"
+  },
+  {
+    "item": "blasting wand"
+  },
+  {
+    "item": "sapphire crystal"
+  },
+  {
+    "item": "ruby crystal"
+  },
+  {
+    "item": "cloth armor"
+  },
+  {
+    "item": "chain vest",
+    "child": [
+      {
+        "item": "cloth armor"
+      }
+    ]
+  },
+  {
+    "item": "null-magic mantle"
+  },
+  {
+    "item": "long sword"
+  },
+  {
+    "item": "pickaxe"
+  },
+  {
+    "item": "b. f. sword"
+  },
+  {
+    "item": "dagger"
+  },
+  {
+    "item": "recurve bow",
+    "child": [
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "amplifying tome"
+  },
+  {
+    "item": "vampiric scepter",
+    "child": [
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "doran's shield"
+  },
+  {
+    "item": "doran's blade"
+  },
+  {
+    "item": "doran's ring"
+  },
+  {
+    "item": "negatron cloak",
+    "child": [
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "needlessly large rod"
+  },
+  {
+    "item": "dark seal"
+  },
+  {
+    "item": "cull"
+  },
+  {
+    "item": "quest: top"
+  },
+  {
+    "item": "quest: mid"
+  },
+  {
+    "item": "quest: bot"
+  },
+  {
+    "item": "quest: support"
+  },
+  {
+    "item": "quest: jungle"
+  },
+  {
+    "item": "scorchclaw pup"
+  },
+  {
+    "item": "gustwalker hatchling"
+  },
+  {
+    "item": "mosstomper seedling"
+  },
+  {
+    "item": "jarvan i's"
+  },
+  {
+    "item": "top lane quest"
+  },
+  {
+    "item": "mid lane quest"
+  },
+  {
+    "item": "bot lane quest"
+  },
+  {
+    "item": "support quest"
+  },
+  {
+    "item": "jungle quest"
+  },
+  {
+    "item": "item_1210_name"
+  },
+  {
+    "item": "unleashed teleport"
+  },
+  {
+    "item": "penetrating bullets"
+  },
+  {
+    "item": "reinforced armor"
+  },
+  {
+    "item": "structure bounty"
+  },
+  {
+    "item": "overerchargedha"
+  },
+  {
+    "item": "tower power-up"
+  },
+  {
+    "item": "overgrowth"
+  },
+  {
+    "item": "recall"
+  },
+  {
+    "item": "enhanced recall"
+  },
+  {
+    "item": "disabled recall"
+  },
+  {
+    "item": "total biscuit of everlasting will"
+  },
+  {
+    "item": "steel sigil",
+    "child": [
+      {
+        "item": "cloth armor"
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "the brutalizer",
+    "child": [
+      {
+        "item": "glowing mote"
+      },
+      {
+        "item": "pickaxe"
+      }
+    ]
+  },
+  {
+    "item": "tunneler",
+    "child": [
+      {
+        "item": "long sword"
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "glowing mote"
+  },
+  {
+    "item": "guardian's horn"
+  },
+  {
+    "item": "poro-snax"
+  },
+  {
+    "item": "shurelya's battlesong",
+    "child": [
+      {
+        "item": "aether wisp",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "bandleglass mirror",
+        "child": [
+          {
+            "item": "faerie charm"
+          },
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "seeker's armguard",
+    "child": [
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "cloth armor"
+      }
+    ]
+  },
+  {
+    "item": "shattered armguard",
+    "child": [
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "cloth armor"
+      }
+    ]
+  },
+  {
+    "item": "slightly magical footwear"
+  },
+  {
+    "item": "overlord's bloodmail",
+    "child": [
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "unending despair",
+    "child": [
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "blackfire torch",
+    "child": [
+      {
+        "item": "lost chapter",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "sapphire crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "fated ashes",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "kaenic rookern",
+    "child": [
+      {
+        "item": "spectre's cowl",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "null-magic mantle"
+          },
+          {
+            "item": "rejuvenation bead"
+          }
+        ]
+      },
+      {
+        "item": "negatron cloak",
+        "child": [
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "fated ashes",
+    "child": [
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "dusk and dawn",
+    "child": [
+      {
+        "item": "sheen",
+        "child": [
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "blasting wand"
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "fiendhunter bolts",
+    "child": [
+      {
+        "item": "zeal",
+        "child": [
+          {
+            "item": "cloak of agility"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "scout's slingshot",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "endless hunger",
+    "child": [
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "bastionbreaker",
+    "child": [
+      {
+        "item": "the brutalizer",
+        "child": [
+          {
+            "item": "glowing mote"
+          },
+          {
+            "item": "pickaxe"
+          }
+        ]
+      },
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "actualizer",
+    "child": [
+      {
+        "item": "lost chapter",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "sapphire crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "blasting wand"
+      }
+    ]
+  },
+  {
+    "item": "hexoptics c44",
+    "child": [
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "noonquiver",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "cloak of agility"
+          }
+        ]
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "bandlepipes",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "cloth armor"
+      },
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "protoplasm harness",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "whispering circlet",
+    "child": [
+      {
+        "item": "forbidden idol",
+        "child": [
+          {
+            "item": "faerie charm"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "tear of the goddess"
+      }
+    ]
+  },
+  {
+    "item": "diadem of songs"
+  },
+  {
+    "item": "trailblazer",
+    "child": [
+      {
+        "item": "winged moonplate",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "archangel's staff",
+    "child": [
+      {
+        "item": "tear of the goddess"
+      },
+      {
+        "item": "lost chapter",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "sapphire crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "manamune",
+    "child": [
+      {
+        "item": "tear of the goddess"
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "berserker's greaves",
+    "child": [
+      {
+        "item": "boots"
+      },
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "boots of swiftness",
+    "child": [
+      {
+        "item": "boots"
+      }
+    ]
+  },
+  {
+    "item": "sorcerer's shoes",
+    "child": [
+      {
+        "item": "boots"
+      }
+    ]
+  },
+  {
+    "item": "glacial buckler",
+    "child": [
+      {
+        "item": "cloth armor"
+      },
+      {
+        "item": "sapphire crystal"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "guardian angel",
+    "child": [
+      {
+        "item": "steel sigil",
+        "child": [
+          {
+            "item": "cloth armor"
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "b. f. sword"
+      }
+    ]
+  },
+  {
+    "item": "infinity edge",
+    "child": [
+      {
+        "item": "b. f. sword"
+      },
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "cloak of agility"
+      }
+    ]
+  },
+  {
+    "item": "yun tal wildarrows",
+    "child": [
+      {
+        "item": "b. f. sword"
+      },
+      {
+        "item": "scout's slingshot",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "mortal reminder",
+    "child": [
+      {
+        "item": "executioner's calling",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "last whisper",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "cloak of agility"
+      }
+    ]
+  },
+  {
+    "item": "last whisper",
+    "child": [
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "lord dominik's regards",
+    "child": [
+      {
+        "item": "last whisper",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "noonquiver",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "cloak of agility"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "atma's reckoning",
+    "child": [
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "cloak of agility"
+      }
+    ]
+  },
+  {
+    "item": "seraph's embrace"
+  },
+  {
+    "item": "mejai's soulstealer",
+    "child": [
+      {
+        "item": "dark seal"
+      }
+    ]
+  },
+  {
+    "item": "muramana"
+  },
+  {
+    "item": "phage",
+    "child": [
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "phantom dancer",
+    "child": [
+      {
+        "item": "dagger"
+      },
+      {
+        "item": "zeal",
+        "child": [
+          {
+            "item": "cloak of agility"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "plated steelcaps",
+    "child": [
+      {
+        "item": "boots"
+      },
+      {
+        "item": "cloth armor"
+      }
+    ]
+  },
+  {
+    "item": "zeke's convergence",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "cloth armor"
+      },
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "hearthbound axe",
+    "child": [
+      {
+        "item": "long sword"
+      },
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "sterak's gage",
+    "child": [
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "sheen",
+    "child": [
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "spirit visage",
+    "child": [
+      {
+        "item": "spectre's cowl",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "null-magic mantle"
+          },
+          {
+            "item": "rejuvenation bead"
+          }
+        ]
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "winged moonplate",
+    "child": [
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "kindlegem",
+    "child": [
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "sunfire aegis",
+    "child": [
+      {
+        "item": "bami's cinder",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "tear of the goddess"
+  },
+  {
+    "item": "black cleaver",
+    "child": [
+      {
+        "item": "phage",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      }
+    ]
+  },
+  {
+    "item": "bloodthirster",
+    "child": [
+      {
+        "item": "b. f. sword"
+      },
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "vampiric scepter",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "experimental hexplate",
+    "child": [
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "phage",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "ravenous hydra",
+    "child": [
+      {
+        "item": "tiamat",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "vampiric scepter",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "thornmail",
+    "child": [
+      {
+        "item": "bramble vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "bramble vest",
+    "child": [
+      {
+        "item": "cloth armor"
+      }
+    ]
+  },
+  {
+    "item": "tiamat",
+    "child": [
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "trinity force",
+    "child": [
+      {
+        "item": "sheen",
+        "child": [
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "phage",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "hearthbound axe",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "warden's mail",
+    "child": [
+      {
+        "item": "cloth armor"
+      }
+    ]
+  },
+  {
+    "item": "warmog's armor",
+    "child": [
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "crystalline bracer",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "rejuvenation bead"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "heartsteel",
+    "child": [
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "crystalline bracer",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "rejuvenation bead"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "runaan's hurricane",
+    "child": [
+      {
+        "item": "zeal",
+        "child": [
+          {
+            "item": "cloak of agility"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "scout's slingshot",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "zeal",
+    "child": [
+      {
+        "item": "cloak of agility"
+      },
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "statikk shiv",
+    "child": [
+      {
+        "item": "scout's slingshot",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "rectrix",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      }
+    ]
+  },
+  {
+    "item": "rabadon's deathcap",
+    "child": [
+      {
+        "item": "needlessly large rod"
+      }
+    ]
+  },
+  {
+    "item": "wit's end",
+    "child": [
+      {
+        "item": "recurve bow",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "negatron cloak",
+        "child": [
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "rapid firecannon",
+    "child": [
+      {
+        "item": "zeal",
+        "child": [
+          {
+            "item": "cloak of agility"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "scout's slingshot",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "deprecated item",
+    "child": [
+      {
+        "item": "b. f. sword"
+      },
+      {
+        "item": "cloak of agility"
+      },
+      {
+        "item": "scout's slingshot",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "stormrazor",
+    "child": [
+      {
+        "item": "b. f. sword"
+      },
+      {
+        "item": "cloak of agility"
+      },
+      {
+        "item": "scout's slingshot",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "lich bane",
+    "child": [
+      {
+        "item": "sheen",
+        "child": [
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "aether wisp",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "blasting wand"
+      }
+    ]
+  },
+  {
+    "item": "banshee's veil",
+    "child": [
+      {
+        "item": "needlessly large rod"
+      },
+      {
+        "item": "verdant barrier",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "redemption",
+    "child": [
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "forbidden idol",
+        "child": [
+          {
+            "item": "faerie charm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "fiendish codex",
+    "child": [
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "knight's vow",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "rejuvenation bead"
+      }
+    ]
+  },
+  {
+    "item": "frozen heart",
+    "child": [
+      {
+        "item": "warden's mail",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "glacial buckler",
+        "child": [
+          {
+            "item": "cloth armor"
+          },
+          {
+            "item": "sapphire crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "mercury's treads",
+    "child": [
+      {
+        "item": "boots"
+      },
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "guardian's orb"
+  },
+  {
+    "item": "aether wisp",
+    "child": [
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "forbidden idol",
+    "child": [
+      {
+        "item": "faerie charm"
+      }
+    ]
+  },
+  {
+    "item": "nashor's tooth",
+    "child": [
+      {
+        "item": "recurve bow",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "blasting wand"
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "rylai's crystal scepter",
+    "child": [
+      {
+        "item": "blasting wand"
+      },
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "malignance",
+    "child": [
+      {
+        "item": "lost chapter",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "sapphire crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "blasting wand"
+      }
+    ]
+  },
+  {
+    "item": "winter's approach",
+    "child": [
+      {
+        "item": "tear of the goddess"
+      },
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "fimbulwinter"
+  },
+  {
+    "item": "executioner's calling",
+    "child": [
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "guinsoo's rageblade",
+    "child": [
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "recurve bow",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      }
+    ]
+  },
+  {
+    "item": "caulfield's warhammer",
+    "child": [
+      {
+        "item": "long sword"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "serrated dirk",
+    "child": [
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "void staff",
+    "child": [
+      {
+        "item": "blighting jewel",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "blasting wand"
+      }
+    ]
+  },
+  {
+    "item": "cryptbloom",
+    "child": [
+      {
+        "item": "blighting jewel",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "mercurial scimitar",
+    "child": [
+      {
+        "item": "quicksilver sash",
+        "child": [
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "vampiric scepter",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "quicksilver sash",
+    "child": [
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "youmuu's ghostblade",
+    "child": [
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "rectrix",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "randuin's omen",
+    "child": [
+      {
+        "item": "warden's mail",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "scout's slingshot",
+    "child": [
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "hextech alternator",
+    "child": [
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "hextech gunblade",
+    "child": [
+      {
+        "item": "vampiric scepter",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "hextech alternator",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "haunting guise",
+    "child": [
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "hextech rocketbelt",
+    "child": [
+      {
+        "item": "hextech alternator",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "blade of the ruined king",
+    "child": [
+      {
+        "item": "vampiric scepter",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "recurve bow",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      }
+    ]
+  },
+  {
+    "item": "hexdrinker",
+    "child": [
+      {
+        "item": "long sword"
+      },
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "maw of malmortius",
+    "child": [
+      {
+        "item": "hexdrinker",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "zhonya's hourglass",
+    "child": [
+      {
+        "item": "needlessly large rod"
+      },
+      {
+        "item": "seeker's armguard",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "cloth armor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "ionian boots of lucidity",
+    "child": [
+      {
+        "item": "boots"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "spear of shojin",
+    "child": [
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "morellonomicon",
+    "child": [
+      {
+        "item": "oblivion orb",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "blasting wand"
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "swiftmarch",
+    "child": [
+      {
+        "item": "boots of swiftness",
+        "child": [
+          {
+            "item": "boots"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "crimson lucidity",
+    "child": [
+      {
+        "item": "ionian boots of lucidity",
+        "child": [
+          {
+            "item": "boots"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "gunmetal greaves",
+    "child": [
+      {
+        "item": "berserker's greaves",
+        "child": [
+          {
+            "item": "boots"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "chainlaced crushers",
+    "child": [
+      {
+        "item": "mercury's treads",
+        "child": [
+          {
+            "item": "boots"
+          },
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "armored advance",
+    "child": [
+      {
+        "item": "plated steelcaps",
+        "child": [
+          {
+            "item": "boots"
+          },
+          {
+            "item": "cloth armor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "spellslinger's shoes",
+    "child": [
+      {
+        "item": "sorcerer's shoes",
+        "child": [
+          {
+            "item": "boots"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "guardian's blade"
+  },
+  {
+    "item": "umbral glaive",
+    "child": [
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "hullbreaker",
+    "child": [
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "winged moonplate",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      }
+    ]
+  },
+  {
+    "item": "guardian's hammer"
+  },
+  {
+    "item": "locket of the iron solari",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "cloth armor"
+      },
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "spectre's cowl",
+    "child": [
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "null-magic mantle"
+      },
+      {
+        "item": "rejuvenation bead"
+      }
+    ]
+  },
+  {
+    "item": "mikael's blessing",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "forbidden idol",
+        "child": [
+          {
+            "item": "faerie charm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "terminus",
+    "child": [
+      {
+        "item": "hearthbound axe",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "recurve bow",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "rite of ruin",
+    "child": [
+      {
+        "item": "cloak of agility"
+      },
+      {
+        "item": "aether wisp",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "ardent censer",
+    "child": [
+      {
+        "item": "aether wisp",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "forbidden idol",
+        "child": [
+          {
+            "item": "faerie charm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "essence reaver",
+    "child": [
+      {
+        "item": "sheen",
+        "child": [
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "cloak of agility"
+      }
+    ]
+  },
+  {
+    "item": "dead man's plate",
+    "child": [
+      {
+        "item": "winged moonplate",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "titanic hydra",
+    "child": [
+      {
+        "item": "tiamat",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "crystalline bracer",
+    "child": [
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "rejuvenation bead"
+      }
+    ]
+  },
+  {
+    "item": "lost chapter",
+    "child": [
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "sapphire crystal"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "catalyst of aeons",
+    "child": [
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "sapphire crystal"
+      }
+    ]
+  },
+  {
+    "item": "edge of night",
+    "child": [
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "world atlas"
+  },
+  {
+    "item": "runic compass"
+  },
+  {
+    "item": "bounty of worlds"
+  },
+  {
+    "item": "celestial opposition",
+    "child": [
+      {
+        "item": "bounty of worlds"
+      }
+    ]
+  },
+  {
+    "item": "dream maker",
+    "child": [
+      {
+        "item": "bounty of worlds"
+      }
+    ]
+  },
+  {
+    "item": "zaz'zak's realmspike",
+    "child": [
+      {
+        "item": "bounty of worlds"
+      }
+    ]
+  },
+  {
+    "item": "solstice sleigh",
+    "child": [
+      {
+        "item": "bounty of worlds"
+      }
+    ]
+  },
+  {
+    "item": "bloodsong",
+    "child": [
+      {
+        "item": "bounty of worlds"
+      }
+    ]
+  },
+  {
+    "item": "<raritylegendary>fire at will</raritylegendary><br><subtitleleft> <silver>500 silver serpents</silver></subtitleleft>"
+  },
+  {
+    "item": "<raritylegendary>death's daughter</raritylegendary><br><subtitleleft> <silver>500 silver serpents</silver></subtitleleft>"
+  },
+  {
+    "item": "<raritylegendary>raise morale</raritylegendary><br><subtitleleft> <silver>500 silver serpents</silver></subtitleleft>"
+  },
+  {
+    "item": "oblivion orb",
+    "child": [
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "lifeline",
+    "child": [
+      {
+        "item": "rectrix",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "spectral cutlass",
+    "child": [
+      {
+        "item": "lifeline",
+        "child": [
+          {
+            "item": "rectrix",
+            "child": [
+              {
+                "item": "long sword"
+              }
+            ]
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "imperial mandate",
+    "child": [
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "bandleglass mirror",
+        "child": [
+          {
+            "item": "faerie charm"
+          },
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "bloodletter's curse",
+    "child": [
+      {
+        "item": "haunting guise",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "sword of blossoming dawn",
+    "child": [
+      {
+        "item": "forbidden idol",
+        "child": [
+          {
+            "item": "faerie charm"
+          }
+        ]
+      },
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "sin eater"
+  },
+  {
+    "item": "lightning braid"
+  },
+  {
+    "item": "force of nature",
+    "child": [
+      {
+        "item": "negatron cloak",
+        "child": [
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "winged moonplate",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "the golden spatula",
+    "child": [
+      {
+        "item": "zeal",
+        "child": [
+          {
+            "item": "cloak of agility"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "b. f. sword"
+      },
+      {
+        "item": "vampiric scepter",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "needlessly large rod"
+      }
+    ]
+  },
+  {
+    "item": "horizon focus",
+    "child": [
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "cosmic drive",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "aether wisp",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "blighting jewel",
+    "child": [
+      {
+        "item": "amplifying tome"
+      }
+    ]
+  },
+  {
+    "item": "verdant barrier",
+    "child": [
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "null-magic mantle"
+      }
+    ]
+  },
+  {
+    "item": "riftmaker",
+    "child": [
+      {
+        "item": "haunting guise",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "bandleglass mirror",
+    "child": [
+      {
+        "item": "faerie charm"
+      },
+      {
+        "item": "amplifying tome"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "shadowflame",
+    "child": [
+      {
+        "item": "hextech alternator",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "needlessly large rod"
+      }
+    ]
+  },
+  {
+    "item": "stormsurge",
+    "child": [
+      {
+        "item": "hextech alternator",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      },
+      {
+        "item": "aether wisp",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "death's dance",
+    "child": [
+      {
+        "item": "steel sigil",
+        "child": [
+          {
+            "item": "cloth armor"
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "chempunk chainsword",
+    "child": [
+      {
+        "item": "executioner's calling",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "sundered sky",
+    "child": [
+      {
+        "item": "tunneler",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      }
+    ]
+  },
+  {
+    "item": "staff of flowing water",
+    "child": [
+      {
+        "item": "fiendish codex",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "forbidden idol",
+        "child": [
+          {
+            "item": "faerie charm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "moonstone renewer",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "bandleglass mirror",
+        "child": [
+          {
+            "item": "faerie charm"
+          },
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "echoes of helia",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "bandleglass mirror",
+        "child": [
+          {
+            "item": "faerie charm"
+          },
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "dawncore",
+    "child": [
+      {
+        "item": "blasting wand"
+      },
+      {
+        "item": "forbidden idol",
+        "child": [
+          {
+            "item": "faerie charm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "stridebreaker",
+    "child": [
+      {
+        "item": "tiamat",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "phage",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "dagger"
+      }
+    ]
+  },
+  {
+    "item": "liandry's torment",
+    "child": [
+      {
+        "item": "haunting guise",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "fated ashes",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "luden's echo",
+    "child": [
+      {
+        "item": "lost chapter",
+        "child": [
+          {
+            "item": "amplifying tome"
+          },
+          {
+            "item": "sapphire crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "hextech alternator",
+        "child": [
+          {
+            "item": "amplifying tome"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "rod of ages",
+    "child": [
+      {
+        "item": "blasting wand"
+      },
+      {
+        "item": "catalyst of aeons",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "sapphire crystal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "bami's cinder",
+    "child": [
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "glowing mote"
+      }
+    ]
+  },
+  {
+    "item": "iceborn gauntlet",
+    "child": [
+      {
+        "item": "sheen",
+        "child": [
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "ruby crystal"
+      },
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "hollow radiance",
+    "child": [
+      {
+        "item": "bami's cinder",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "spectre's cowl",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "null-magic mantle"
+          },
+          {
+            "item": "rejuvenation bead"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "jak'sho, the protean",
+    "child": [
+      {
+        "item": "giant's belt",
+        "child": [
+          {
+            "item": "ruby crystal"
+          }
+        ]
+      },
+      {
+        "item": "chain vest",
+        "child": [
+          {
+            "item": "cloth armor"
+          }
+        ]
+      },
+      {
+        "item": "negatron cloak",
+        "child": [
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "noonquiver",
+    "child": [
+      {
+        "item": "long sword"
+      },
+      {
+        "item": "cloak of agility"
+      }
+    ]
+  },
+  {
+    "item": "kraken slayer",
+    "child": [
+      {
+        "item": "rectrix",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "hearthbound axe",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      },
+      {
+        "item": "recurve bow",
+        "child": [
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "immortal shieldbow",
+    "child": [
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "noonquiver",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "cloak of agility"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "navori flickerblade",
+    "child": [
+      {
+        "item": "dagger"
+      },
+      {
+        "item": "zeal",
+        "child": [
+          {
+            "item": "cloak of agility"
+          },
+          {
+            "item": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "the collector",
+    "child": [
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "cloak of agility"
+      }
+    ]
+  },
+  {
+    "item": "rectrix",
+    "child": [
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "eclipse",
+    "child": [
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "serylda's grudge",
+    "child": [
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "last whisper",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "serpent's fang",
+    "child": [
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "pickaxe"
+      }
+    ]
+  },
+  {
+    "item": "axiom arc",
+    "child": [
+      {
+        "item": "the brutalizer",
+        "child": [
+          {
+            "item": "glowing mote"
+          },
+          {
+            "item": "pickaxe"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "hubris",
+    "child": [
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "caulfield's warhammer",
+        "child": [
+          {
+            "item": "long sword"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "profane hydra",
+    "child": [
+      {
+        "item": "tiamat",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "the brutalizer",
+        "child": [
+          {
+            "item": "glowing mote"
+          },
+          {
+            "item": "pickaxe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "voltaic cyclosword",
+    "child": [
+      {
+        "item": "the brutalizer",
+        "child": [
+          {
+            "item": "glowing mote"
+          },
+          {
+            "item": "pickaxe"
+          }
+        ]
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "shield of the rakkor",
+    "child": [
+      {
+        "item": "rectrix",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "steel sigil",
+        "child": [
+          {
+            "item": "cloth armor"
+          },
+          {
+            "item": "long sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item": "opportunity",
+    "child": [
+      {
+        "item": "pickaxe"
+      },
+      {
+        "item": "serrated dirk",
+        "child": [
+          {
+            "item": "long sword"
+          }
+        ]
+      },
+      {
+        "item": "long sword"
+      }
+    ]
+  },
+  {
+    "item": "gangplank placeholder"
+  },
+  {
+    "item": "abyssal mask",
+    "child": [
+      {
+        "item": "kindlegem",
+        "child": [
+          {
+            "item": "ruby crystal"
+          },
+          {
+            "item": "glowing mote"
+          }
+        ]
+      },
+      {
+        "item": "negatron cloak",
+        "child": [
+          {
+            "item": "null-magic mantle"
+          }
+        ]
+      }
+    ]
+  }
+]
