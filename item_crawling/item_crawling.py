@@ -80,15 +80,13 @@ def build_tree(item, id_to_canonical, cache, visiting):
     visiting.add(item_id)
 
     children = []
-    seen_child_names = set()
     for child_id in item.get("from", []) or []:
         canonical_child = id_to_canonical.get(child_id)
         if not canonical_child:
             continue
         child_tree = build_tree(canonical_child, id_to_canonical, cache, visiting)
-        if child_tree is not None and child_tree["item"] not in seen_child_names:
+        if child_tree is not None:
             children.append(child_tree)
-            seen_child_names.add(child_tree["item"])
 
     tree = {"item": (item.get("name") or "").strip().lower()}
     if children:
