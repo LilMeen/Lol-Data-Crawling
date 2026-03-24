@@ -258,6 +258,12 @@ def crawl_players_match_history(players):
     if not isinstance(players, dict):
         raise ValueError("players must be a dict with region keys: {'region': [{'player', 'player_url'}]}")
 
+    # Crawl KR players backward by reversing the list order before processing.
+    players = {
+        region: player_list[::-1] if region == "kr" else player_list
+        for region, player_list in players.items()
+    }
+
     driver = _create_chrome_driver()
     wait = WebDriverWait(driver, 20)
     result = []
