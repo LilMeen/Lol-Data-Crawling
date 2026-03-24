@@ -9,7 +9,6 @@ def main():
     clean_output_folder()
     craw_players = crawl_players()
     crawl_players_match_history(craw_players)
-    dump_data_to_history()
 
 if __name__ == '__main__':
     main()

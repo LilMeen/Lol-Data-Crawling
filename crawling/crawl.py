@@ -262,10 +262,13 @@ def crawl_players_match_history(players):
     wait = WebDriverWait(driver, 20)
     result = []
     summary = {}
+    total_players = sum(len(player_list) for player_list in players.values())
+    global_idx = 0
 
     try:
         for region, player_list in players.items():
-            for idx, item in enumerate(player_list, start=1):
+            for item in player_list:
+                global_idx += 1
                 player = item.get("player") or item.get("name") or ""
                 player_url = item.get("player_url") or item.get("url") or item.get("link") or ""
 
@@ -276,7 +279,7 @@ def crawl_players_match_history(players):
                 if player_url.startswith("/"):
                     player_url = "https://op.gg" + player_url
 
-                print(f"[{idx}/{len(players)}] Crawling match history: {player} -> {player_url}")
+                print(f"[{global_idx}/{total_players}] Crawling match history: {player} -> {player_url}")
 
                 try:
                     matches = crawl_match_history_by_player_url(
@@ -284,7 +287,7 @@ def crawl_players_match_history(players):
                         driver=driver,
                         wait=wait
                     )
-                    save_matches_to_file(player, matches)
+                    save_matches_to_file(f'{global_idx}.{player}', matches)
                     result.append({
                         "player": player,
                         "matches": matches
