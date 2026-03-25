@@ -9,8 +9,8 @@ def main():
     init_output_folder()
     clean_output_folder()
     # crawl_players = crawl_players()
-    crawl_players = load_players_from_file('backup/kr.txt')
-    crawl_players_match_history(crawl_players, start_index=95)
+    crawl_players = load_players_from_file('data_hist/20260324_230021/crawl/players/kr.txt')
+    crawl_players_match_history(crawl_players, start_index=580)
 
 if __name__ == '__main__':
     main()
