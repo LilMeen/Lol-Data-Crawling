@@ -1,4 +1,4 @@
-from crawling.config import CRAWL_REGION
+from crawling.v1.config import CRAWL_REGION
 from utils.output import (
     save_players_crawl_summary, 
     save_players_to_file, 
