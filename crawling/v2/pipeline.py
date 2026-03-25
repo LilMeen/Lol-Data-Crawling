@@ -21,6 +21,8 @@ from crawling.v2.transform.match_record import (
     find_participant,
 )
 from crawling.v2.utils.identity import extract_riot_id
+from crawling.v2.utils.time import check_exceed_time_limit_3_months
+from crawling.v2.utils.time import check_exceed_time_limit_3_months
 
 
 class CrawlingPipeline:
@@ -147,12 +149,17 @@ class CrawlingPipeline:
                     f"{account.get('tagLine', tag_line)}"
                 )
 
-                player_match_urls: list[str] = []
 
                 for match_id in match_ids:
                     detail = get_match_detail(self.client, match_id)
                     timeline = get_match_timeline(self.client, match_id)
                     participant = find_participant(detail, puuid)
+
+                    time = int(detail.get("info", {}).get("gameEndTimestamp", 0))
+                    is_exceed = check_exceed_time_limit_3_months(time)
+                    if is_exceed:
+                        break
+
                     record = build_match_record(
                         account_label=account_label,
                         game_name=account.get("gameName", game_name),
@@ -166,7 +173,6 @@ class CrawlingPipeline:
                     )
 
                     self.storage.append_record_chunked(safe_player, record)
-                    player_match_urls.append(record["matchUrl"])
                     match_count += 1
                 success_count += 1
             except Exception as exc:

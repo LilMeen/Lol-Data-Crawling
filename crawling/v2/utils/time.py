@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 def format_relative_time(epoch_ms: int) -> str:
     now = datetime.now(timezone.utc)
@@ -19,3 +19,8 @@ def format_relative_time(epoch_ms: int) -> str:
 
     months = delta_seconds // 2592000
     return f"{months} month{'s' if months != 1 else ''} ago"
+
+def check_exceed_time_limit_3_months(epoch_ms: int) -> bool:
+    now = datetime.now(timezone.utc)
+    then = now - timedelta(days=90)
+    return epoch_ms < then.timestamp() * 1000
