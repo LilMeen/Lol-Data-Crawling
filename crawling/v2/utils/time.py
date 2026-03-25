@@ -22,5 +22,5 @@ def format_relative_time(epoch_ms: int) -> str:
 
 def check_exceed_time_limit_3_months(epoch_ms: int) -> bool:
     now = datetime.now(timezone.utc)
-    then = now - timedelta(days=90)
+    then = now - timedelta(days=120)
     return epoch_ms < then.timestamp() * 1000
