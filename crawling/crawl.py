@@ -110,6 +110,8 @@ def _click_all_show_more_detail_games(driver, max_clicks=500):
 
 # ==============================================
 # CRAWL PLAYER 
+# ==============================================
+# Function return:
 # crawl_players = {
 #     "kr": [
 #         {
@@ -120,6 +122,13 @@ def _click_all_show_more_detail_games(driver, max_clicks=500):
 #     ],
 #     ...
 # }
+#
+# File return: {region}.txt (e.g., kr.txt, na.txt, etc.)
+# File structure:
+# player_name1    player_link1
+# player_name2    player_link2
+# ...
+#
 # ==============================================
 
 def _crawl_players_by_region(region="kr"):
@@ -232,7 +241,7 @@ def crawl_match_history_by_player_url(player_url, driver=None, wait=None, wait_t
         time.sleep(5)
 
         clicked_show_more = _click_all_show_more(driver)
-        clicked_detail = _click_all_show_more_detail_games(driver)
+        clicked_detail = _click_all_show_more_detail_games(driver, max_clicks=300)
         time.sleep(5)
 
         match_urls = _extract_match_urls_v2(driver.page_source)
@@ -254,66 +263,52 @@ def crawl_match_history_by_player_url(player_url, driver=None, wait=None, wait_t
             driver.quit()
 
 
-def crawl_players_match_history(players):
-    if not isinstance(players, dict):
-        raise ValueError("players must be a dict with region keys: {'region': [{'player', 'player_url'}]}")
+def crawl_players_match_history(players, start_index=0):
+    if not isinstance(players, list):
+        raise ValueError("players must be a list: [{'player', 'player_url'}]}")
 
-    # Crawl KR players backward by reversing the list order before processing.
-    players = {
-        region: player_list[::-1] if region == "kr" else player_list
-        for region, player_list in players.items()
-    }
-
+    if (len(players) - start_index) < 1:
+        print(f"No players to crawl from index {start_index}. Total players: {total_players}")
+        return
+    
     driver = _create_chrome_driver()
     wait = WebDriverWait(driver, 20)
-    result = []
-    summary = {}
-    total_players = sum(len(player_list) for player_list in players.values())
-    global_idx = 0
+    total_players = len(players)
+    global_idx = start_index
+
+    players_to_crawl = players[start_index:]
 
     try:
-        for region, player_list in players.items():
-            for item in player_list:
-                global_idx += 1
-                player = item.get("player") or item.get("name") or ""
-                player_url = item.get("player_url") or item.get("url") or item.get("link") or ""
+        for item in players_to_crawl:
+            start = time.time()
+            global_idx += 1
+            player = item.get("player") or item.get("name") or ""
+            player_url = item.get("player_url") or item.get("url") or item.get("link") or ""
 
-                if not player_url:
-                    result.append({"player": player, "matches": []})
-                    continue
+            if not player_url:
+                continue
 
-                if player_url.startswith("/"):
-                    player_url = "https://op.gg" + player_url
+            if player_url.startswith("/"):
+                player_url = "https://op.gg" + player_url
 
-                print(f"[{global_idx}/{total_players}] Crawling match history: {player} -> {player_url}")
+            print(f"[{global_idx}/{total_players}] Crawling match history: {player} -> {player_url}")
 
-                try:
-                    matches = crawl_match_history_by_player_url(
-                        player_url=player_url,
-                        driver=driver,
-                        wait=wait
-                    )
-                    save_matches_to_file(f'{global_idx}.{player}', matches)
-                    result.append({
-                        "player": player,
-                        "matches": matches
-                    })
-                except Exception as e:
-                    print(f"Error crawling match history for {player}: {e}")
-                    result.append({
-                        "player": player,
-                        "matches": []
-                    })
-                
-            match_count = sum(len(r.get("matches", [])) for r in result)
-            summary[region] = {
-                "match_count": match_count,
-            }
-        save_matches_crawl_summary(summary)
+            try:
+                matches = crawl_match_history_by_player_url(
+                    player_url=player_url,
+                    driver=driver,
+                    wait=wait
+                )
+                save_matches_to_file(f'{global_idx}.{player}', matches)
+            except Exception as e:
+                print(f"Error crawling match history for {player}: {e}")
+
+            time_taken = time.time() - start
+            print(f"Finished crawling {player} in {time_taken:.2f} seconds. Found {len(matches)} matches.")
+            print()
     finally:
         driver.quit()
 
-    return result
 
 
 # ==============================================
