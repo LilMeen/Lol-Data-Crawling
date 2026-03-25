@@ -267,21 +267,24 @@ def crawl_players_match_history(players, start_index=0):
     if not isinstance(players, list):
         raise ValueError("players must be a list: [{'player', 'player_url'}]}")
 
-    if (len(players) - start_index) < 1:
-        print(f"No players to crawl from index {start_index}. Total players: {total_players}")
+    total_players = len(players)
+    if total_players == 0:
+        print("No players to crawl.")
         return
-    
+
+    if start_index < 0 or start_index >= total_players:
+        print(f"Invalid start_index={start_index}. Valid range is 0 to {total_players - 1}.")
+        return
+
     driver = _create_chrome_driver()
     wait = WebDriverWait(driver, 20)
-    total_players = len(players)
-    global_idx = start_index
-
-    players_to_crawl = players[start_index:]
+    players_to_crawl = players[start_index::-1]
+    
 
     try:
-        for item in players_to_crawl:
+        for step, item in enumerate(players_to_crawl):
             start = time.time()
-            global_idx += 1
+            current_idx = start_index - step
             player = item.get("player") or item.get("name") or ""
             player_url = item.get("player_url") or item.get("url") or item.get("link") or ""
 
@@ -291,15 +294,16 @@ def crawl_players_match_history(players, start_index=0):
             if player_url.startswith("/"):
                 player_url = "https://op.gg" + player_url
 
-            print(f"[{global_idx}/{total_players}] Crawling match history: {player} -> {player_url}")
+            print(f"[{current_idx}/{total_players - 1}] Crawling match history: {player} -> {player_url}")
 
+            matches = []
             try:
                 matches = crawl_match_history_by_player_url(
                     player_url=player_url,
                     driver=driver,
                     wait=wait
                 )
-                save_matches_to_file(f'{global_idx}.{player}', matches)
+                save_matches_to_file(f'{current_idx}.{player}', matches)
             except Exception as e:
                 print(f"Error crawling match history for {player}: {e}")
 

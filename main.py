@@ -1,7 +1,6 @@
 import json
 from crawling.v2.pipeline import CrawlingPipeline
 
-
 def main() -> None:
     pipeline = CrawlingPipeline(
         matches_per_player=300,
@@ -9,7 +8,6 @@ def main() -> None:
     )
     result = pipeline.run(resume=True, start_index=1)
     print(json.dumps(result, ensure_ascii=False, indent=2))
-
 
 if __name__ == "__main__":
     main()
