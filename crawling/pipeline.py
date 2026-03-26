@@ -1,28 +1,25 @@
-from __future__ import annotations
-
-import json
 import os
 from pathlib import Path
 from typing import Any
 
-from crawling.v2.config.config import QUEUE_TYPE_MAP, VERSION
-from crawling.v2.core.riot_client import RiotClient
-from crawling.v2.crawl.crawl import (
+from crawling.config.constants import QUEUE_TYPE_MAP
+from crawling.core.riot_client import RiotClient
+from crawling.crawl.crawl import (
     crawl_players,
     get_account_by_riot_id,
     get_match_detail,
     get_match_ids,
     get_match_timeline,
 )
-from crawling.v2.crawl.load import load_ddragon_maps
-from crawling.v2.output.storage import PipelineStorage
-from crawling.v2.transform.match_record import (
+from crawling.crawl.load import load_ddragon_maps
+from crawling.output.storage import PipelineStorage
+from crawling.transform.match_record import (
     build_match_record,
     find_participant,
 )
-from crawling.v2.utils.identity import extract_riot_id
-from crawling.v2.utils.time import check_exceed_time_limit_3_months
-from crawling.v2.utils.time import check_exceed_time_limit_3_months
+from crawling.utils.identity import extract_riot_id
+from crawling.utils.time import check_exceed_time_limit_3_months
+from crawling.utils.time import check_exceed_time_limit_3_months
 
 
 class CrawlingPipeline:
@@ -41,7 +38,7 @@ class CrawlingPipeline:
 
         resolved_key = api_key or self._load_api_key()
         self.client = RiotClient(resolved_key)
-        self.item_map, self.spell_map = load_ddragon_maps(version=VERSION)
+        self.item_map, self.spell_map = load_ddragon_maps()
         self.storage = PipelineStorage(
             base_dir=self.base_dir,
             records_per_chunk=self.records_per_chunk,
@@ -201,9 +198,3 @@ class CrawlingPipeline:
             "checkpoint": str(self.storage.checkpoint_file),
             "matches_dir": str(self.storage.matches_v2_dir),
         }
-
-
-if __name__ == "__main__":
-    pipeline = CrawlingPipeline()
-    result = pipeline.run(resume=True)
-    print(json.dumps(result, ensure_ascii=False, indent=2))

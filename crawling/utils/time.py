@@ -24,3 +24,9 @@ def check_exceed_time_limit_3_months(epoch_ms: int) -> bool:
     now = datetime.now(timezone.utc)
     then = now - timedelta(days=120)
     return epoch_ms < then.timestamp() * 1000
+
+
+def check_exceed_time_limit(epoch_ms: int, max_days: int = 120) -> bool:
+    now = datetime.now(timezone.utc)
+    then = now - timedelta(days=max_days)
+    return epoch_ms < then.timestamp() * 1000

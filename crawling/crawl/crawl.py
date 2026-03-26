@@ -7,8 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-from crawling.v2.core.riot_client import RiotClient
-from utils.output import save_players_to_file
+from crawling.core.riot_client import RiotClient
 
 
 PLAYERS_PAGE_URL = "https://op.gg/lol/spectate/list/pro-gamer?region=kr"
@@ -234,7 +233,5 @@ def crawl_players():
     except Exception as e:
         print(f"Error crawling players: {e}")
         return players
-
-    save_players_to_file(players, "kr")
     time.sleep(5)
     return players

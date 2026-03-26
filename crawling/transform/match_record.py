@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from typing import Any
 from urllib.parse import quote
 
-from crawling.v2.utils.time import format_relative_time
+from crawling.utils.time import format_relative_time
 
 
 def build_opgg_match_url(game_name: str, tag_line: str, match_id: str) -> str:

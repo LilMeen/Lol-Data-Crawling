@@ -2,8 +2,8 @@ import time
 from typing import Any
 import requests
 
-from crawling.v2.config.config import BASE_URL
-from crawling.v2.core.rate_limiter import RateWindow, SimpleRateLimiter
+from crawling.config.constants import BASE_URL
+from crawling.core.rate_limiter import RateWindow, SimpleRateLimiter
 
 
 class RiotClient:
@@ -11,7 +11,7 @@ class RiotClient:
         self.session = requests.Session()
         self.session.headers.update({"X-Riot-Token": api_key})
         self.limiter = SimpleRateLimiter(
-            windows=[RateWindow(20, 1.0), RateWindow(100, 120.0)]
+            windows=[RateWindow(18, 1.0), RateWindow(98, 120.0)]
         )
 
     def get(self, path: str, params: dict[str, Any] | None = None) -> Any:

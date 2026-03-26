@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import json
 import re
 from datetime import datetime, timezone
@@ -88,13 +86,6 @@ class PipelineStorage:
 
         self._chunk_state[safe_player] = (chunk_index, line_count + 1)
         return chunk_file
-
-    def save_match_urls(self, safe_player: str, match_urls: list[str]) -> Path:
-        out_file = self.matches_history_dir / f"{safe_player}.txt"
-        with out_file.open("w", encoding="utf-8") as f:
-            for url in match_urls:
-                f.write(f"{url}\n")
-        return out_file
 
     def save_run_summary(self, summary: dict) -> Path:
         self.run_summary_file.write_text(
