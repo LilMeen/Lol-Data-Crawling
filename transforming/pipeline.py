@@ -74,5 +74,4 @@ class TransformingPipeline:
             compression=compression,
         )
 
-
         return transformed_df, saved_path, max_item_length

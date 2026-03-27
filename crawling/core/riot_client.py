@@ -7,16 +7,23 @@ from crawling.core.rate_limiter import RateWindow, SimpleRateLimiter
 
 
 class RiotClient:
-    def __init__(self, api_key: str) -> None:
+    def __init__(self, api_key: str, base_url: str | None = None) -> None:
         self.session = requests.Session()
         self.session.headers.update({"X-Riot-Token": api_key})
+        self.base_url = (base_url or BASE_URL).rstrip("/")
         self.limiter = SimpleRateLimiter(
             windows=[RateWindow(18, 1.0), RateWindow(98, 120.0)]
         )
 
-    def get(self, path: str, params: dict[str, Any] | None = None) -> Any:
+    def get(
+        self,
+        path: str,
+        params: dict[str, Any] | None = None,
+        base_url: str | None = None,
+    ) -> Any:
         max_retries = 3
-        url = f"{BASE_URL}{path}"
+        effective_base_url = (base_url or self.base_url).rstrip("/")
+        url = f"{effective_base_url}{path}"
 
         for attempt in range(1, max_retries + 1):
             self.limiter.wait_if_needed()

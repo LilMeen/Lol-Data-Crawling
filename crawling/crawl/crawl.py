@@ -22,11 +22,16 @@ PLAYERS_PAGE_URL = "https://op.gg/lol/spectate/list/pro-gamer?region=kr"
 #     "tagLine": "string"
 # }
 # ==============================================
-def get_account_by_riot_id(client: RiotClient, game_name: str, tag_line: str) -> dict[str, Any]:
+def get_account_by_riot_id(
+    client: RiotClient,
+    game_name: str,
+    tag_line: str,
+    base_url: str | None = None,
+) -> dict[str, Any]:
     encoded_game_name = quote(game_name, safe="")
     encoded_tag_line = quote(tag_line, safe="")
     path = f"/riot/account/v1/accounts/by-riot-id/{encoded_game_name}/{encoded_tag_line}"
-    return client.get(path)
+    return client.get(path, base_url=base_url)
 
 
 # ==============================================
@@ -37,7 +42,12 @@ def get_account_by_riot_id(client: RiotClient, game_name: str, tag_line: str) ->
 #     "string"
 # ]
 # ==============================================
-def get_match_ids(client: RiotClient, puuid: str, count: int = 5) -> list[str]:
+def get_match_ids(
+    client: RiotClient,
+    puuid: str,
+    count: int = 5,
+    base_url: str | None = None,
+) -> list[str]:
     path = f"/lol/match/v5/matches/by-puuid/{quote(puuid, safe='')}/ids"
     remaining = max(0, int(count))
     start = 0
@@ -47,7 +57,7 @@ def get_match_ids(client: RiotClient, puuid: str, count: int = 5) -> list[str]:
     while remaining > 0:
         batch_size = min(100, remaining)
         params = {"start": start, "count": batch_size}
-        batch = client.get(path, params=params)
+        batch = client.get(path, params=params, base_url=base_url)
 
         if not isinstance(batch, list):
             break
@@ -94,9 +104,13 @@ def get_match_ids(client: RiotClient, puuid: str, count: int = 5) -> list[str]:
 #     }
 # }
 # ==============================================
-def get_match_detail(client: RiotClient, match_id: str) -> dict[str, Any]:
+def get_match_detail(
+    client: RiotClient,
+    match_id: str,
+    base_url: str | None = None,
+) -> dict[str, Any]:
     path = f"/lol/match/v5/matches/{quote(match_id, safe='')}"
-    return client.get(path)
+    return client.get(path, base_url=base_url)
 
 
 
@@ -138,9 +152,13 @@ def get_match_detail(client: RiotClient, match_id: str) -> dict[str, Any]:
 #     }
 # }
 
-def get_match_timeline(client: RiotClient, match_id: str) -> dict[str, Any]:
+def get_match_timeline(
+    client: RiotClient,
+    match_id: str,
+    base_url: str | None = None,
+) -> dict[str, Any]:
     path = f"/lol/match/v5/matches/{quote(match_id, safe='')}/timeline"
-    return client.get(path)
+    return client.get(path, base_url=base_url)
 
 
 

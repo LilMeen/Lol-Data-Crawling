@@ -49,3 +49,15 @@ def load_ddragon_maps(version: str = None) -> tuple[dict[int, str], dict[int, st
             continue
 
     return item_map, spell_map
+
+
+def load_player_from_file(file_path: str) -> list[dict[str, str]]:
+    players = []
+    with open(file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            parts = line.strip().split("\t")
+            if len(parts) != 2:
+                continue
+            name, link = parts
+            players.append({"name": name, "link": link})
+    return players

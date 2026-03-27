@@ -15,3 +15,32 @@ def extract_riot_id(player_name: str, player_link: str) -> tuple[str, str] | Non
         if game_name and tag_name:
             return game_name.strip(), tag_name.strip()
     return None
+
+
+def extract_opgg_region(player_link: str) -> str | None:
+    if not player_link:
+        return None
+
+    parsed = urlparse(player_link)
+    parts = [p for p in parsed.path.split("/") if p]
+    # Expected OPGG path shape: /lol/summoners/{region}/{slug}
+    if len(parts) >= 4 and parts[0] == "lol" and parts[1] == "summoners":
+        return parts[2].lower()
+    return None
+
+
+def region_to_regional_routing(region: str | None) -> str:
+    if not region:
+        return "asia"
+
+    region = region.lower()
+
+    if region in {"na", "br", "lan", "las"}:
+        return "americas"
+    if region in {"kr", "jp"}:
+        return "asia"
+    if region in {"euw", "eune", "tr", "ru"}:
+        return "europe"
+    if region in {"oce", "ph", "sg", "th", "tw", "vn"}:
+        return "sea"
+    return "asia"

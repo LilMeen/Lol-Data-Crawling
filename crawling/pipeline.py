@@ -11,13 +11,14 @@ from crawling.crawl.crawl import (
     get_match_ids,
     get_match_timeline,
 )
-from crawling.crawl.load import load_ddragon_maps
+from crawling.crawl.load import load_ddragon_maps, load_player_from_file
 from crawling.output.storage import PipelineStorage
 from crawling.transform.match_record import (
     build_match_record,
     find_participant,
 )
 from crawling.utils.identity import extract_riot_id
+from crawling.utils.identity import extract_opgg_region, region_to_regional_routing
 from crawling.utils.time import check_exceed_time_limit_3_months
 from crawling.utils.time import check_exceed_time_limit_3_months
 
@@ -31,7 +32,7 @@ class CrawlingPipeline:
         matches_per_player: int = 20,
         records_per_chunk: int = 50,
     ) -> None:
-        self.base_dir = Path(__file__).resolve().parents[2]
+        self.base_dir = Path(__file__).resolve().parents[1]
 
         self.matches_per_player = max(1, matches_per_player)
         self.records_per_chunk = max(1, records_per_chunk)
@@ -76,7 +77,7 @@ class CrawlingPipeline:
         start_index is 1-based user position in the crawled player list.
         If provided, it takes precedence over resume checkpoint.
         """
-        players = crawl_players()
+        players = load_player_from_file(self.base_dir / "data" / "crawl" / "players" / "kr.txt")
         total_players = len(players)
         checkpoint = self.storage.load_checkpoint()
 
@@ -122,6 +123,9 @@ class CrawlingPipeline:
             player_name = player_data.get("name", "")
             player_link = player_data.get("link", "")
             riot_id = extract_riot_id(player_name, player_link)
+            opgg_region = extract_opgg_region(player_link)
+            regional_routing = region_to_regional_routing(opgg_region)
+            regional_base_url = f"https://{regional_routing}.api.riotgames.com"
             safe_player = self.storage.sanitize_filename(f"{user_no}.{player_name}")
 
             if riot_id is None:
@@ -133,13 +137,21 @@ class CrawlingPipeline:
             game_name, tag_line = riot_id
 
             try:
-                account = get_account_by_riot_id(self.client, game_name, tag_line)
+                print(f"[CrawlingPipeline] Processing player {user_no}/{total_players}: {game_name}#{tag_line}")
+                account = get_account_by_riot_id(
+                    self.client,
+                    game_name,
+                    tag_line,
+                    base_url=regional_base_url,
+                )
                 puuid = account["puuid"]
                 match_ids = get_match_ids(
                     self.client,
                     puuid,
                     count=self.matches_per_player,
+                    base_url=regional_base_url,
                 )
+                print(f"[CrawlingPipeline] Found {len(match_ids)} matches for player {game_name}#{tag_line}")
 
                 account_label = (
                     f"{account.get('gameName', game_name)}#"
@@ -148,8 +160,8 @@ class CrawlingPipeline:
 
 
                 for match_id in match_ids:
-                    detail = get_match_detail(self.client, match_id)
-                    timeline = get_match_timeline(self.client, match_id)
+                    detail = get_match_detail(self.client, match_id, base_url=regional_base_url)
+                    timeline = get_match_timeline(self.client, match_id, base_url=regional_base_url)
                     participant = find_participant(detail, puuid)
 
                     time = int(detail.get("info", {}).get("gameEndTimestamp", 0))

@@ -15,8 +15,8 @@ class PreprocessingPipeline:
     def __init__(self, raw_data_dir: Path | str = RAW_DATA_DIR):
         self.raw_data_dir = Path(raw_data_dir)
         self.constraints = {
-            "max_days_ago": 120,
-            "type": ['Ranked Solo/Duo', 'Ranked Flex'],
+            "max_days_ago": 180,
+            "type": ['Ranked Solo/Duo', 'Ranked Flex', 'Normal Draft'],
             "result": ['Win', 'Defeat'],
         }
 
